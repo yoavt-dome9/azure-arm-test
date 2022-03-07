@@ -37,7 +37,7 @@
     },
     "zipDeployPackageUrl": {
       "type": "string",
-      "defaultValue": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip",
+      "defaultValue": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip?sp=r&st=2022-03-07T21:23:00Z&se=2022-04-09T04:23:00Z&sv=2020-08-04&sr=b&sig=heCn4Wn5KxDtl%2Bc841vzlQx%2B7BD1KPEBy29zmMFOWLI%3D",
       "metadata": {
         "description": "zipdeploy compatible package url"
       }
@@ -131,7 +131,7 @@
             },
             {
               "name": "WEBSITE_RUN_FROM_PACKAGE",
-              "value": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip"
+              "value": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip?sp=r&st=2022-03-07T21:23:00Z&se=2022-04-09T04:23:00Z&sv=2020-08-04&sr=b&sig=heCn4Wn5KxDtl%2Bc841vzlQx%2B7BD1KPEBy29zmMFOWLI%3D"
             }
           ]
         }
