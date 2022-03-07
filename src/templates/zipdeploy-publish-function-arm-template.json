@@ -131,7 +131,7 @@
             },
             {
               "name": "WEBSITE_RUN_FROM_PACKAGE",
-              "value": "1"
+              "value": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip"
             }
           ]
         }
