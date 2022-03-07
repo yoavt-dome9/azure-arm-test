@@ -145,11 +145,11 @@
         "ApplicationId": "[variables('applicationInsightsName')]",
         "Request_Source": "IbizaWebAppExtensionCreate"
       }
-    },    
+    },
     {
       "name": "ZipDeploy",
-      "type": "Extensions",
-      "apiVersion": "2016-03-01",
+      "type": "Microsoft.Web/sites/siteextensions",
+      "apiVersion": "2021-03-01",
       "dependsOn": [
         "[resourceId('Microsoft.Web/Sites', variables('functionAppName'))]"
       ],
