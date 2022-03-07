@@ -147,7 +147,7 @@
       }
     },
     {
-      "name": "ZipDeploy",
+      "name": "[concat(variables('functionAppName'), '/ZipDeploy')]",
       "type": "Microsoft.Web/sites/siteextensions",
       "apiVersion": "2021-03-01",
       "dependsOn": [
