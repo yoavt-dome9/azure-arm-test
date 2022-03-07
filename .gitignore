@@ -1,8 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/azure-arm-test/v17
-/src/functions/onboarding-poc-cs/.vs/FunctionApp1/v17
-/.vs
-/src/functions/onboarding-poc-cs/.vs/FunctionApp1/config/applicationhost.config
