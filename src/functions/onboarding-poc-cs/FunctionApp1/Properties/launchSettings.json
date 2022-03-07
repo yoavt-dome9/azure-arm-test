@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FunctionApp1": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false,
+      "authenticationMode": "None",
+      "remoteDebugMachine": "https://functionapp120220302233119.azurewebsites.net/"
+    }
+  }
+}
