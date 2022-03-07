@@ -35,7 +35,7 @@
         "description": "Location for Application Insights"
       }
     },
-    "msdeployPackageUrl": {
+    "zipDeployPackageUrl": {
       "type": "string",
       "defaultValue": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip",
       "metadata": {
@@ -153,12 +153,12 @@
     {
       "name": "[concat(variables('functionAppName'), '/ZipDeploy')]",
       "type": "Microsoft.Web/sites/siteextensions",
-      "apiVersion": "2021-03-01",
+      "apiVersion": "2015-08-01",
       "dependsOn": [
         "[resourceId('Microsoft.Web/Sites', variables('functionAppName'))]"
       ],
       "properties": {
-        "packageUri": "[parameters('msdeployPackageUrl')]"
+        "packageUri": "[parameters('zipDeployPackageUrl')]"
       }
     }
   ]
