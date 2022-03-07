@@ -37,7 +37,7 @@
     },
     "msdeployPackageUrl": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/yoavt-dome9/azure-arm-test/11bac642bf8babdfae32b21af46c8131d0b9980c/src/functions/onboarding-poc-cs/publish/FunctionApp1.zip",
+      "defaultValue": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip",
       "metadata": {
         "description": "zipdeploy compatible package url"
       }
