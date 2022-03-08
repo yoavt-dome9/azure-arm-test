@@ -37,7 +37,7 @@
     },
     "zipDeployPackageUrl": {
       "type": "string",
-      "defaultValue": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/FunctionApp1.zip",
+      "defaultValue": "https://yoavtstorageaccount2.blob.core.windows.net/yoavt-blob-container-1/publish_linux64.zip",
       "metadata": {
         "description": "zipdeploy compatible package url"
       }
